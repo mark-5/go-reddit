@@ -96,7 +96,7 @@ type Client struct {
 	Widget     *WidgetService
 	Wiki       *WikiService
 
-	oauth2Transport *oauth2.Transport
+	oauth2TokenSource oauth2.TokenSource
 
 	onRequestCompleted RequestCompletionCallback
 }
